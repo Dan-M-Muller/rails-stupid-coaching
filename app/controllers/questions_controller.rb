@@ -5,7 +5,6 @@ class QuestionsController < ApplicationController
 
   def answer()
     @questionAsked = params[:question];
-    # raise
     @answered = "";
 
     if (@questionAsked == "I am going to work")
